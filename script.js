@@ -1,4 +1,4 @@
-// Simple scroll animation effect
+
 window.addEventListener("scroll", () => {
     const hero = document.querySelector(".hero-text");
     const pos = hero.getBoundingClientRect().top;
@@ -9,3 +9,4 @@ window.addEventListener("scroll", () => {
         hero.style.transform = "translateY(0)";
     }
 });
+
